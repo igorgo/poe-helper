@@ -98,8 +98,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate",
+      "owner": "igorgo",
+      "repo": "poe-helper",
       "private": false
     }
   },
