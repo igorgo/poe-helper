@@ -1,0 +1,14 @@
+.container {
+  padding: 10px;
+  text-align: center;
+  width: calc(100% - 20px);
+  height: 100%;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}

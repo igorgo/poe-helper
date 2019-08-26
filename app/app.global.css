@@ -1,0 +1,203 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #282c34;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row,
+.column,
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.inline,
+.column.inline,
+.flex.inline {
+  display: inline-flex;
+}
+.row.reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  flex-direction: column;
+}
+.column.reverse {
+  flex-direction: column-reverse;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.no-wrap {
+  flex-wrap: nowrap;
+}
+.reverse-wrap {
+  flex-wrap: wrap-reverse;
+}
+.order-first {
+  order: -10000;
+}
+.order-last {
+  order: 10000;
+}
+.order-none {
+  order: 0;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center,
+.flex-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center,
+.flex-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.items-stretch {
+  align-items: stretch;
+}
+.content-start {
+  align-content: flex-start;
+}
+.content-end {
+  align-content: flex-end;
+}
+.content-center {
+  align-content: center;
+}
+.content-stretch {
+  align-content: stretch;
+}
+.content-between {
+  align-content: space-between;
+}
+.content-around {
+  align-content: space-around;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-center {
+  align-self: center;
+}
+.self-baseline {
+  align-self: baseline;
+}
+.self-stretch {
+  align-self: stretch;
+}
+
+.col {
+  flex: 10000 1 0;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+}
+
+.col-grow {
+  flex: 1 0 auto;
+}
+
+.row > .col,
+.row > .col-auto,
+.row > .col-grow,
+.flex > .col,
+.flex > .col-xs,
+.flex > .col-auto,
+.flex > .col-grow {
+  width: auto;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.column > .col,
+.column > .col-auto,
+.column > .col-grow,
+.flex > .col,
+.flex > .col-auto,
+.flex > .col-grow {
+  height: auto;
+  min-height: 0;
+  max-height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.vp-width {
+  width: 100vw;
+}
+
+.vp-height {
+  height: 100vh;
+}
+
+.non-selectable {
+  user-select: none !important;
+}
