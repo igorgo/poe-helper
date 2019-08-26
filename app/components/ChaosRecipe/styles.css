@@ -1,0 +1,34 @@
+.contentContainer {
+  height: calc(100% - 60px);
+}
+
+.container {
+  width: 360px;
+}
+
+.buttonsContainer {
+  height: 30px;
+  padding: 10px 0;
+}
+
+.gridContainer {
+  height: calc(100% - 30px);
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #232c39;
+  border-radius: 10% / 50%;
+  width: 140px !important;
+  height: 30px;
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+  font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+
+.item {
+  display: inline-block;
+}

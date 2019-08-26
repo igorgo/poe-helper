@@ -1,0 +1,878 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChaosRecipe component should match exact snapshot 1`] = `
+<div>
+  <div
+    className="vp-height full-width non-selectable column"
+  >
+    <div
+      className="row justify-center items-center contentContainer"
+    >
+      <div
+        className="container col-auto"
+      >
+        <div
+          className="buttonsContainer row justify-around items-center"
+        >
+          <button
+            className="btn col-auto"
+            onClick={[Function]}
+            type="button"
+          >
+            Reset
+          </button>
+          <button
+            className="btn col-auto"
+            onClick={[Function]}
+            type="button"
+          >
+            Minus set
+          </button>
+        </div>
+        <div
+          className="gridContainer column"
+        >
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon6"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon7"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon8"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon9"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon10"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="weapon"
+              className="col-auto"
+              height={90}
+              id="weapon11"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="helmet"
+              className="col-auto"
+              height={60}
+              id="helmet5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="body"
+              className="col-auto"
+              height={90}
+              id="body5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="glove"
+              className="col-auto"
+              height={60}
+              id="glove5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="boot"
+              className="col-auto"
+              height={60}
+              id="boot5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring6"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring7"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring8"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring9"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring10"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="ring"
+              className="col-auto"
+              height={30}
+              id="ring11"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+            <img
+              alt="amulet"
+              className="col-auto"
+              height={30}
+              id="amulet5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={30}
+            />
+          </div>
+          <div
+            className="row justify-around"
+            onClick={[Function]}
+            onContextMenu={[Function]}
+          >
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt0"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt1"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt2"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt3"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt4"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+            <img
+              alt="belt"
+              className="col-auto"
+              height={30}
+              id="belt5"
+              src="test-file-stub"
+              style={
+                Object {
+                  "opacity": 0.2,
+                }
+              }
+              width={60}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container row justify-around"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+  </div>
+</div>
+`;
