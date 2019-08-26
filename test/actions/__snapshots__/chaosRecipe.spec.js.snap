@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should decrement should create decrement action 1`] = `
+Object {
+  "payload": Object {
+    "itemType": "body",
+  },
+  "type": "DEC_CHAOS_RECIPE",
+}
+`;
+
+exports[`actions should increment should create increment action 1`] = `
+Object {
+  "payload": Object {
+    "itemType": "body",
+  },
+  "type": "INC_CHAOS_RECIPE",
+}
+`;
+
+exports[`actions should minusSet should create minusSet action 1`] = `
+Object {
+  "type": "MINUS_SET_CHAOS_RECIPE",
+}
+`;
+
+exports[`actions should reset should create reset action 1`] = `
+Object {
+  "type": "RESET_CHAOS_RECIPE",
+}
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers chaosRecipe should handle DEC_CHAOS_RECIPE 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 0,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
+
+exports[`reducers chaosRecipe should handle INC_CHAOS_RECIPE 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 2,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
+
+exports[`reducers chaosRecipe should handle MINUS_SET_CHAOS_RECIPE 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 0,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
+
+exports[`reducers chaosRecipe should handle RESET_CHAOS_RECIPE 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 0,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
+
+exports[`reducers chaosRecipe should handle initial state 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 0,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
+
+exports[`reducers chaosRecipe should handle unknown action type 1`] = `
+Object {
+  "amulet": 0,
+  "belt": 0,
+  "body": 1,
+  "boot": 0,
+  "glove": 0,
+  "helmet": 0,
+  "ring": 0,
+  "weapon": 0,
+}
+`;
