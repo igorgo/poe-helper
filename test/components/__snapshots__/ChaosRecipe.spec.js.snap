@@ -864,13 +864,19 @@ exports[`ChaosRecipe component should match exact snapshot 1`] = `
       </div>
     </div>
     <div
-      className="container row justify-around"
+      className="container row justify-around items-center"
     >
       <a
         href="/"
         onClick={[Function]}
       >
         Home
+      </a>
+      <a
+        href="/maps"
+        onClick={[Function]}
+      >
+        Maps
       </a>
     </div>
   </div>
