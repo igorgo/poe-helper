@@ -1,6 +1,6 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import ChaosRecipe from '../components/ChaosRecipe/ChaosRecipe';
+import ChaosRecipe from '../components/ChaosRecipe';
 import * as ChaosRecipeActions from '../actions/chaosRecipe';
 import type { appStateType } from '../reducers/types';
 

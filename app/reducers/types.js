@@ -11,9 +11,25 @@ export type ChaosRecipeStore = {
   belt: number
 };
 
+export type MapData = {
+  own: boolean,
+  quant: number,
+  shaped: boolean,
+  eldered: boolean,
+  level: number
+};
+
+export type MapId = string;
+export type MapsData = { [mapId: MapId]: MapData };
+
+export type MapsStore = {
+  data: MapsData
+};
+
 export type appStateType = {
   +counter: number,
-  +chaosRecipe: ChaosRecipeStore
+  +chaosRecipe: ChaosRecipeStore,
+  +maps: MapsStore
 };
 
 export type ChaosRecipeItemType =
@@ -30,6 +46,13 @@ export type chaosRecipePayload = {
   itemType?: ChaosRecipeItemType
 };
 
+export type MapPayload = {
+  id?: MapId,
+  own?: boolean,
+  shape?: boolean,
+  elder?: boolean
+};
+
 export type BaseAction = {
   +type: string
 };
@@ -37,6 +60,11 @@ export type BaseAction = {
 export type ChaosRecipeAction = {
   +type: string,
   +payload?: chaosRecipePayload
+};
+
+export type MapAction = {
+  +type: string,
+  +payload?: MapPayload
 };
 
 export type Action = BaseAction | ChaosRecipeAction;

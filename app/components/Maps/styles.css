@@ -1,0 +1,12 @@
+.contentContainer {
+  height: calc(100% - 70px);
+}
+
+.buttonsContainer {
+  height: 30px;
+  padding: 5px 0;
+}
+
+.txt {
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+}

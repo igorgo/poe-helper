@@ -5,6 +5,7 @@ import { routerMiddleware, routerActions } from 'connected-react-router';
 import { createLogger } from 'redux-logger';
 import createRootReducer from '../reducers';
 import * as chaosRecipe from '../actions/chaosRecipe';
+import * as maps from '../actions/maps';
 import type { appStateType } from '../reducers/types';
 
 const history = createHashHistory();
@@ -37,6 +38,7 @@ const configureStore = (initialState?: appStateType) => {
   // Redux DevTools Configuration
   const actionCreators = {
     ...chaosRecipe,
+    ...maps,
     ...routerActions
   };
   // If Redux DevTools Extension is installed use it, otherwise use Redux compose

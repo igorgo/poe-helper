@@ -152,18 +152,10 @@ const ChaosRecipeHelper = (props: ChaosRecipeProps) => {
           <div
             className={`${styles.buttonsContainer} row justify-around items-center`}
           >
-            <button
-              type="button"
-              className={`${styles.btn} col-auto`}
-              onClick={reset}
-            >
+            <button type="button" className="btn col-auto" onClick={reset}>
               Reset
             </button>
-            <button
-              type="button"
-              className={`${styles.btn} col-auto`}
-              onClick={minusSet}
-            >
+            <button type="button" className="btn col-auto" onClick={minusSet}>
               Minus set
             </button>
           </div>
