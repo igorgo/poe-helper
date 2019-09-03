@@ -12,7 +12,7 @@ type Props = {
 
 const NavMenu = (props: Props) => {
   return (
-    <div className={`${styles.container} row justify-around`}>
+    <div className={`${styles.container} row justify-around items-center`}>
       {Object.keys(routes).map(item => {
         return props.exclude !== routes[item] ? (
           <Link key={routesNames[item]} to={routes[item]}>
