@@ -1,5 +1,5 @@
 .contentContainer {
-  height: calc(100% - 60px);
+  height: calc(100% - 30px);
 }
 
 .container {
@@ -13,20 +13,6 @@
 
 .gridContainer {
   height: calc(100% - 30px);
-}
-
-.btn {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: #232c39;
-  border-radius: 10% / 50%;
-  width: 140px !important;
-  height: 30px;
-  opacity: 1;
-  cursor: pointer;
-  outline: none;
-  font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
 }
 
 .item {
